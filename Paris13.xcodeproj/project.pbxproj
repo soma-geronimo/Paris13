@@ -17,6 +17,8 @@
 		830DD98820CE898F00A10C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830DD98620CE898F00A10C24 /* LaunchScreen.storyboard */; };
 		830DD99320CE898F00A10C24 /* Paris13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830DD99220CE898F00A10C24 /* Paris13Tests.swift */; };
 		830DD99E20CE898F00A10C24 /* Paris13UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830DD99D20CE898F00A10C24 /* Paris13UITests.swift */; };
+		830DD9AE20CE957400A10C24 /* Niveau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830DD9AD20CE957400A10C24 /* Niveau.swift */; };
+		830DD9B020CE990000A10C24 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830DD9AF20CE990000A10C24 /* Piece.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		830DD99920CE898F00A10C24 /* Paris13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Paris13UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		830DD99D20CE898F00A10C24 /* Paris13UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paris13UITests.swift; sourceTree = "<group>"; };
 		830DD99F20CE898F00A10C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830DD9AD20CE957400A10C24 /* Niveau.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Niveau.swift; sourceTree = "<group>"; };
+		830DD9AF20CE990000A10C24 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				830DD98420CE898F00A10C24 /* Assets.xcassets */,
 				830DD98620CE898F00A10C24 /* LaunchScreen.storyboard */,
 				830DD98920CE898F00A10C24 /* Info.plist */,
+				830DD9AD20CE957400A10C24 /* Niveau.swift */,
+				830DD9AF20CE990000A10C24 /* Piece.swift */,
 			);
 			path = Paris13;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				830DD97E20CE898E00A10C24 /* GameScene.swift in Sources */,
+				830DD9AE20CE957400A10C24 /* Niveau.swift in Sources */,
+				830DD9B020CE990000A10C24 /* Piece.swift in Sources */,
 				830DD98020CE898E00A10C24 /* GameViewController.swift in Sources */,
 				830DD97820CE898E00A10C24 /* AppDelegate.swift in Sources */,
 			);
